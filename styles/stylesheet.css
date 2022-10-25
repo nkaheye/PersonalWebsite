@@ -22,9 +22,10 @@ footer{
 }
 section{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 1fr;
+    
 }
-#aboutme{
+.firstheading{
     grid-column: 1/-1;
 }
 section p {
