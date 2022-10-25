@@ -1,13 +1,20 @@
 body{
     background-color: beige;
 }
-#aboutme{
-font-family: Montserrat, sans-serif;
-}
-.header{
-    color: red;
-}
-nav{
+header{
     text-align: center;
     background-color: lightblue;
+}
+#headtitle{
+    font-family: 'Montserrat';
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav div{
+    padding: 5px;
 }
