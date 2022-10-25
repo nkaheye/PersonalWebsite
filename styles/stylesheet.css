@@ -3,10 +3,11 @@ body{
 }
 header{
     text-align: center;
-    background-color: lightblue;
+    background-color: #A6CAD4;
 }
 #headtitle{
     font-family: 'Montserrat';
+    color: #334259;
 }
 nav{
     display: flex;
@@ -18,7 +19,7 @@ nav div{
 }
 footer{  
    text-align: center;
-    background-color: lightblue;
+    background-color: #A6CAD4;
 }
 section{
     display: grid;
