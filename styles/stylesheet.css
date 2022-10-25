@@ -18,3 +18,7 @@ nav{
 nav div{
     padding: 5px;
 }
+footer{  
+   text-align: center;
+    background-color: lightblue;
+}
