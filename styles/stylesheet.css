@@ -33,6 +33,7 @@ section p {
 }
 img{
     grid-row: 2/3;
+    padding-left: 25px;
 }
 .p2{
     grid-row: 3/4;
