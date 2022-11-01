@@ -45,3 +45,16 @@ img{
     grid-template-columns: 1fr;
     grid-template-rows:repeat(3, 1fr);
 }
+.courseblock{
+    display: flex;
+    margin-top:10px;
+}
+.courseblock p{
+    margin-left: 100px;
+}
+.courseend{
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom: 1px solid black;
+    height: 40px
+}
