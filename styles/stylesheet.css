@@ -39,3 +39,9 @@ img{
 .p2{
     grid-row: 3/4;
 }
+
+.courses{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(3, 1fr);
+}
