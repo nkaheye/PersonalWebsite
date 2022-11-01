@@ -49,6 +49,9 @@ img{
     display: flex;
     margin-top:10px;
 }
+.courseblock a{
+    min-width: 400px;
+}
 .courseblock p{
     margin-left: 100px;
 }
