@@ -43,17 +43,16 @@ img{
 .courses{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows:repeat(3, 1fr);
 }
 .courseblock{
     display: flex;
     margin-top:10px;
 }
 .courseblock a{
-    min-width: 400px;
+    min-width: 300px;
 }
 .courseblock p{
-    margin-left: 100px;
+    margin-left: 60px;
 }
 .courseend{
     display: flex;
