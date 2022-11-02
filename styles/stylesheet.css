@@ -62,8 +62,14 @@ img{
 }
 }
 @media (max-width: 600px){
-    #courseheading{
-
+    
+    .coursenav{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
 
     }
+   
+
+    
 }
