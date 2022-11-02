@@ -42,11 +42,24 @@ img{
     display: grid;
     grid-template-columns: 1fr;
 }
-.blockend{
+.courseblock{
     display: grid;
+    grid-auto-rows:auto;
 }
 .courseblock p{
-    grid-row: 2/3
+    grid-row: 3/4;
+    margin: 10px 0px;
+}
+.pnend{
+    border-bottom: 1px solid #bdbab8;
+    height: 50px;
+}
+.courseend p{
+    margin: 10px 0px;
+}
+
+.courseblock a{
+    margin: 10px 0px;
 }
 }
 
