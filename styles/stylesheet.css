@@ -9,11 +9,6 @@ h1{
     font-family: 'Montserrat';
     color: #334259;
 }
-nav{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
 nav div{
     padding: 5px;
 }
@@ -39,37 +34,50 @@ img{
 .p2{
     grid-row: 3/4;
 }
-@media (min-width: 600px){
+    
+
+@media(max-width: 600px)
+{
 .courses{
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr;
 }
-.courseblock{
-    display: flex;
-    margin-top:10px;
-}
-.courseblock a{
-    min-width: 300px;
+.blockend{
+    display: grid;
 }
 .courseblock p{
-    margin-left: 60px;
-}
-.courseend{
-    display: flex;
-    flex-direction: column-reverse;
-    border-bottom: 1px solid black;
-    height: 40px
+    grid-row: 2/3
 }
 }
-@media (max-width: 600px){
-    
+
+
+@media (min-width: 600px){
+    .courses{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .courseblock{
+        margin-top:10px;
+    }
+    .courseblock .courseend{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid black;
+    }
+    .courseblock a{
+        min-width: 300px;
+    }
+    .courseblock > p{
+        margin-left: 400px;
+    }
+    .courseend{
+        display: flex;
+        height: 40px
+    }
     .coursenav{
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-
+        justify-content: center;
+        flex-direction: row;
     }
-   
-
-    
 }
+    
