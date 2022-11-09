@@ -27,4 +27,21 @@ do{
 // check if input is number and is 4 characters long
 while(isNaN(Number(input)) || input.length != 4);
 
+let arrcheck = 0;
+for (let course of courselist){
+   if(course.code.includes(input)){
+   console.log(`Yes, I am taking the course: ${course.code} - ${course.name}`)
+   }
+   else{
+        arrcheck += 1;
+         }
+}
 
+if (arrcheck === courselist.length){
+    let addedinput = {
+        code: input,
+        name: null,
+    }
+    courselist.unshift(addedinput)
+    console.log("Successfully added new course")
+}
