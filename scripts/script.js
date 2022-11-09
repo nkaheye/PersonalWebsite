@@ -20,7 +20,7 @@ do{
     input = prompt("Enter course number: ");
     }
     else{
-    input = prompt("Note a valid entry, please enter course code: ");
+    input = prompt("Not a valid entry, please enter course code: ");
     }
     i++
 }
